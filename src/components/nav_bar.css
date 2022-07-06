@@ -1,21 +1,21 @@
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    background: rgb(255, 123, 145);
+    background: rgb(70, 70, 70);
 }
 
-li a {
+.nav li a {
     display: block;
-    color: black;
+    color: yellow;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #6b000e;
+.nav li a:hover {
+    background-color: #a89d03;
     color: white !important;
 }
